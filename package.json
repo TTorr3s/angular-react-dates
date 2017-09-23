@@ -2,9 +2,9 @@
   "name": "angular-react-dates",
   "version": "0.1.5",
   "description": "Angular wrapper component for Airbnb react-dates.",
-  "main": "./bundles/angular-react-dates.umd.js",
-  "module": "./index.js",
-  "typings": "./index.d.ts",
+  "main": "./dist/bundles/angular-react-dates.umd.js",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\"",
     "build:demo": "webpack -p",
